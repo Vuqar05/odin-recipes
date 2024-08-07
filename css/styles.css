@@ -5,12 +5,15 @@ body {
 
 div.info-block{
     background-color: wheat;
-    font-family: "Lucida Calligraphy", "Times New Roman";
+    font-family: "Lucida Calligraphy", "Times New Roman", serif;
 }
 
+div.info-block p {
+    margin: 2px 10px;
+}
 
 .recipes-block {
-    font-family: Lucida Calligraphy, "Times New Roman";
+    font-family: Lucida Calligraphy, "Times New Roman", serif;
     width: 100%;
     margin: auto;
 }
@@ -30,11 +33,16 @@ div.info-block{
 
 
 h1 {
-    font-family: "Lucida Calligraphy", "Brush Script MT";
+    font-family: "Lucida Calligraphy", "Brush Script MT", serif;
     text-align: center;
     box-sizing: border-box;
 }
 
 h2 {
-    font-family: "Lucida Handwriting", "Brush Script MT";
+    font-family: "Lucida Handwriting", "Brush Script MT", serif;
+}
+
+.content {
+    width: max(90%, 300px);
+    margin: auto;
 }
