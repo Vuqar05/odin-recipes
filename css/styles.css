@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+    color: #781803;
+}
+
+div.info-block{
+    background-color: wheat;
+    font-family: "Lucida Calligraphy", "Times New Roman";
+}
+
+
+.recipes-block {
+    font-family: Lucida Calligraphy, "Times New Roman";
+    width: 100%;
+    margin: auto;
+}
+
+.recipes-block ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+}
+
+.recipes-block ul li {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    font-family: "Lucida Calligraphy", "Brush Script MT";
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: "Lucida Handwriting", "Brush Script MT";
+}
